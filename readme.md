@@ -19,3 +19,7 @@
         width: 'auto' // 不设置，则默认平铺父级容器；设置则不平铺
     });
 ```
+
+**效果**
+
+![效果图](https://raw.githubusercontent.com/ESnail/blockTable/master/demo.gif)
