@@ -1,0 +1,54 @@
+ /*================blocked table==============*/
+ .blocked-table-wrapper{
+ 	border:1px solid #d3d3d3;
+ 	display: inline-block;
+ 	max-width: 100%;
+ }
+ .blocked-table-wrapper table{
+ 	border:0;
+ 	width: 100%;
+ 	table-layout: fixed;
+ }
+ .blocked-table-wrapper table th,.blocked-table-wrapper table td{
+ 	padding: 4px 0px;
+ 	border:1px solid #d3d3d3;
+ }
+ .block-left{
+ 	float: left;
+ }
+ .table-wrap-reposition{
+	overflow: hidden;
+ }
+ .mac .blocked-table-native .table-wrap-reposition{
+ 	overflow-x: auto;
+ }
+ .blocked-table-thead{
+ 	position: relative;
+ 	z-index: 100;
+ 	overflow-y:scroll;
+ }
+ .blocked-table-tfoot .table-wrap-reposition{
+ 	overflow-y: scroll;
+ }
+ .block-left{
+ 	position: relative;
+ 	z-index: 99;
+ }
+ .blocked-table-native{
+ 	overflow-y: scroll;
+ }
+  .blocked-table-scrollX{
+  	border:1px solid #d3d3d3;
+  }
+ .blocked-table-scrollX,.blocked-table-scrollX div{
+ 	 height: 18px; 
+ }
+ .blocked-table-scrollX div.scroll-x{
+ 	height: 1px;
+ }
+ .blocked-table-scrollX .table-wrap-reposition{
+	overflow-x:scroll; 
+ }
+ .blocked-table-wrapper .hide-tfoot{
+ 	display: none;
+ }
